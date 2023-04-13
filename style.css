@@ -1,0 +1,37 @@
+body {
+  background-color: #f1f1f1 !important;
+}
+h1 {
+  color: rebeccapurple;
+}
+.form {
+  max-width: 450px;
+  margin: 30px auto;
+}
+.form div {
+  position: relative;
+}
+.form input,
+.form textarea {
+  padding-left: 35px;
+  padding-right: 24px;
+  font-size: 18px;
+}
+.form i {
+  position: absolute;
+  color: rebeccapurple;
+  top: 13px;
+  left: 10px;
+  font-size: 17px;
+}
+.form textarea {
+  height: 150px !important;
+  resize: none;
+}
+.form div .astric {
+  position: absolute;
+  color: red;
+  font-size: 20px;
+  top: 8px;
+  right: 10px;
+}
